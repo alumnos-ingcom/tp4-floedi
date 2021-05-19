@@ -55,3 +55,22 @@ def ingreso_entero(mensaje):
     return entero
 
 
+
+#     1. Ingreso de números enteros
+# Limitar el ingreso de valores y gestionar los errores que dicha actividad puedan producir
+#es una actividad cotidiana en los primeros programas a desarrollar. Por lo que es un excelente primer ejercicio.
+# 
+# Escribir una funcion que solicite el ingreso de un número entero y vuelva a solicitarlo en caso de ingresar un valor incorrecto
+# 
+# Escribir una funcion que solicite el ingreso de un número entero entre dos valores.
+# 
+# Las tres funciones al rechazar el ingreso de valores incorrectos, deben levantar la excepción
+#IngresoIncorrecto con un mensaje que indique lo sucedido.
+
+
+def ingreso_entero_reintento(mensaje, cantidad_reintentos=5):
+def ingreso_entero_restringido(mensaje,valor_minimo=0, valor_maximo=10):
+
+class IngresoIncorrecto(Exception):
+    """Esta es la Excepcion para el ingreso incorrecto"""
+    pass 
